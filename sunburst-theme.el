@@ -1,4 +1,4 @@
-;;; Code:
+;;; code:
 
 (deftheme sunburst
   "Color theme initially created by dngpng. Adapted for Emacs 24 by Will Farrington.")
@@ -71,6 +71,17 @@
  '(region ((t (:background "#4a410d"))))
  '(text-cursor ((t (:background "yellow" :foreground "black"))))
  '(underline ((nil (:underline nil))))
+ ;; term
+ `(term-color-black ((t (:foreground "#4d4d4d" :background "#1c1c1c"))))
+ `(term-color-red ((t (:foreground "#D81860" :background "#F00060"))))
+ `(term-color-green ((t (:foreground "#60FF60" :background "#70FF70"))))
+ `(term-color-yellow ((t (:foreground "#f9fd75" :background "#f9fd80"))))
+ `(term-color-blue ((t (:foreground "#4695c8" :background "#3387cc"))))
+ `(term-color-magenta ((t (:foreground "#a78edb" :background "#b29fdb"))))
+ `(term-color-cyan ((t (:foreground "#43afce" :background "#69b8ce"))))
+ `(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
+ '(term-default-fg-color ((t (:inherit term-color-white))))
+ '(term-default-bg-color ((t (:inherit term-color-black))))
 )
 
 (provide-theme 'sunburst)
