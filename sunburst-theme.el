@@ -20,6 +20,9 @@
  ;; `(powerline-inactive2 ((t (:background ,ample/darker-gray :foreground "cornsilk4" )))
  `(mode-line-inactive  ((t (:background "#333" :foreground "#666"))))
  `(mode-line           ((t (:background "#333" :foreground "#3387cc"))))
+
+ ;; mini buff
+ `(minibuffer-prompt ((t (:foreground "#3387cc" :bold t :background nil))))
 		       
  '(buffers-tab ((t (:background "#111" :foreground "#ddd"))))
  '(font-lock-builtin-face ((t (:foreground "#dd7b3b"))))
