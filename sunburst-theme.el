@@ -10,7 +10,7 @@
  '(bold ((t (:bold t))))
  '(bold-italic ((t (:bold t :slant italic))))
  '(border-glyph ((t (nil))))
- `(vertical-border ((t (:background "#111" :foreground "#333"))))
+ `(vertical-border ((t (:background "#111" :foreground "#222"))))
  `(fringe  ((t (:background "#111"))))
 
  ;; mode line & powerline
@@ -18,8 +18,8 @@
  ;; `(powerline-active2   ((t (:background "cornsilk4" :foreground ,ample/darkest-gray ))))
  ;; `(powerline-inactive1 ((t (:background ,ample/bg :foreground "cornsilk4"))))
  ;; `(powerline-inactive2 ((t (:background ,ample/darker-gray :foreground "cornsilk4" )))
- `(mode-line-inactive  ((t (:background "#333" :foreground "#666"))))
- `(mode-line           ((t (:background "#333" :foreground "#3387cc"))))
+ `(mode-line-inactive  ((t (:background "#222" :foreground "#666"))))
+ `(mode-line           ((t (:background "#222" :foreground "#3387cc"))))
 
  ;; mini buff
  `(minibuffer-prompt ((t (:foreground "#3387cc" :bold t :background nil))))
