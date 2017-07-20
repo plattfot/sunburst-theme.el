@@ -32,7 +32,7 @@
  '(font-lock-function-name-face ((t (:foreground "#e9c062" :bold t))))
  '(font-lock-keyword-face ((t (:foreground "#cf6a4c" :bold t))))
  '(font-lock-preprocessor-face ((t (:foreground "#aeaeae"))))
- '(font-lock-reference-face ((t (:foreground "8b98ab"))))
+ '(font-lock-reference-face ((t (:foreground "#8b98ab"))))
  '(font-lock-string-face ((t (:foreground "#65b042"))))
  '(font-lock-type-face ((t (:foreground "#c5af75"))))
  '(font-lock-variable-name-face ((t (:foreground "#3387cc"))))
