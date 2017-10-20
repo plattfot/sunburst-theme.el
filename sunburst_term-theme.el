@@ -86,6 +86,14 @@
  '(region ((t (:background "#4a410d"))))
  '(text-cursor ((t (:background "yellow" :foreground "black"))))
  '(underline ((nil (:underline nil))))
+ ;; Company
+ '(company-tooltip ((t (:inherit default :background "#222"))))
+ '(company-scrollbar-bg ((t (:background "#222"))))
+ '(company-scrollbar-fg ((t (:background "#666"))))
+ '(company-tooltip-selection ((t (:inherit default :background "#3387cc"))))
+ '(company-tooltip-common ((t (:inherit font-lock-constant-face :foreground "#ddd" :bold t :underline t))))
+ '(company-preview  ((t (:inherit font-lock-comment-face :underline t ))))
+ '(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
 )
 
 (provide-theme 'sunburst_term)
