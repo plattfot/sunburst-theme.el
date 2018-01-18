@@ -20,7 +20,17 @@
  ;; `(powerline-inactive2 ((t (:background ,ample/darker-gray :foreground "cornsilk4" )))
  `(mode-line-inactive  ((t (:background "#222" :foreground "#666"))))
  `(mode-line           ((t (:background "#222" :foreground "#3387cc"))))
-
+ ;; avy
+ '(avy-background-face
+   ((t (:foreground "#666" :background "#111" :inverse-video nil))))
+ '(avy-lead-face-0
+   ((t (:foreground "#3387cc" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face-1
+   ((t (:foreground "#cf6a4c" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face-2
+   ((t (:foreground "#e9c062" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face
+   ((t (:foreground "#65b042" :background "#111" :inverse-video nil :weight bold))))
  ;; mini buff
  `(minibuffer-prompt ((t (:foreground "#3387cc" :bold t :background nil))))
 		       
