@@ -116,6 +116,12 @@
  '(company-tooltip-common ((t (:inherit font-lock-constant-face :foreground "#ddd" :bold t :underline t))))
  '(company-preview  ((t (:inherit font-lock-comment-face :underline t ))))
  '(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
+ ;; Autocomplete
+ '(ac-completion-face ((t (:inherit default :foreground "#666" :underline t))))
+ '(ac-candidate-face ((t (:background "#222"))))
+ '(ac-selection-face ((t (:foreground "#ddd" :background "#3387cc"))))
+ ;; Tooltip
+ '(tooltip ((t (:inherit variable-pitch :background "#222" :foreground "#666"))))
 )
 
 (provide-theme 'sunburst)
