@@ -7,8 +7,8 @@
  'sunburst
  (if window-system '(default ((t (:background "#111" :foreground "#ddd"))))
    '(default ((t (:foreground "#ddd")))))
- '(default ((t (:background "#111" :foreground "#ddd"))))
  '(blue ((t (:foreground "blue"))))
+ '(cursor ((t (:background "#fff"))))
  '(bold ((t (:bold t))))
  '(bold-italic ((t (:bold t :slant italic))))
  '(border-glyph ((t (nil))))
@@ -108,6 +108,7 @@
  '(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
  '(term-default-fg-color ((t (:inherit term-color-white))))
  '(term-default-bg-color ((t (:inherit term-color-black))))
+
  ;; Company
  '(company-tooltip ((t (:inherit default :background "#222"))))
  '(company-scrollbar-bg ((t (:background "#222"))))
@@ -116,10 +117,18 @@
  '(company-tooltip-common ((t (:inherit font-lock-constant-face :foreground "#ddd" :bold t :underline t))))
  '(company-preview  ((t (:inherit font-lock-comment-face :underline t ))))
  '(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
- ;; Autocomplete
+
+ ;; Auto-complete
  '(ac-completion-face ((t (:inherit default :foreground "#666" :underline t))))
  '(ac-candidate-face ((t (:background "#222"))))
  '(ac-selection-face ((t (:foreground "#ddd" :background "#3387cc"))))
+ '(popup-tip-face ((t (:foreground "#3387cc" :background "#222"))))
+ '(popup-menu-mouse-face ((t (:background "#222" :foreground "#3387cc"))))
+ '(popup-summary-face ((t (:background "#222" :foreground "#666"))))
+ '(popup-scroll-bar-foreground-face ((t (:background "#666"))))
+ '(popup-scroll-bar-background-face ((t (:background "#222"))))
+ '(popup-isearch-match ((t (:background "#222" :foreground "#666"))))
+
  ;; Tooltip
  '(tooltip ((t (:inherit variable-pitch :background "#222" :foreground "#666"))))
 )
