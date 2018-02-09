@@ -96,6 +96,14 @@
  `(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
  '(term-default-fg-color ((t (:inherit term-color-white))))
  '(term-default-bg-color ((t (:inherit term-color-black))))
+ ;; Company
+ '(company-tooltip ((t (:inherit default :background "#222"))))
+ '(company-scrollbar-bg ((t (:background "#222"))))
+ '(company-scrollbar-fg ((t (:background "#666"))))
+ '(company-tooltip-selection ((t (:inherit default :background "#3387cc"))))
+ '(company-tooltip-common ((t (:inherit font-lock-constant-face :foreground "#ddd" :bold t :underline t))))
+ '(company-preview  ((t (:inherit font-lock-comment-face :underline t ))))
+ '(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
 )
 
 (provide-theme 'sunburst)
