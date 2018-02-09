@@ -20,7 +20,17 @@
  ;; `(powerline-inactive2 ((t (:background ,ample/darker-gray :foreground "cornsilk4" )))
  `(mode-line-inactive  ((t (:background "#222" :foreground "#666"))))
  `(mode-line           ((t (:background "#222" :foreground "#3387cc"))))
-
+ ;; avy
+ '(avy-background-face
+   ((t (:foreground "#666" :background "#111" :inverse-video nil))))
+ '(avy-lead-face-0
+   ((t (:foreground "#3387cc" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face-1
+   ((t (:foreground "#cf6a4c" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face-2
+   ((t (:foreground "#e9c062" :background "#111" :inverse-video nil :weight bold))))
+ '(avy-lead-face
+   ((t (:foreground "#65b042" :background "#111" :inverse-video nil :weight bold))))
  ;; mini buff
  `(minibuffer-prompt ((t (:foreground "#3387cc" :bold t :background nil))))
 		       
@@ -32,7 +42,7 @@
  '(font-lock-function-name-face ((t (:foreground "#e9c062" :bold t))))
  '(font-lock-keyword-face ((t (:foreground "#cf6a4c" :bold t))))
  '(font-lock-preprocessor-face ((t (:foreground "#aeaeae"))))
- '(font-lock-reference-face ((t (:foreground "8b98ab"))))
+ '(font-lock-reference-face ((t (:foreground "#8b98ab"))))
  '(font-lock-string-face ((t (:foreground "#65b042"))))
  '(font-lock-type-face ((t (:foreground "#c5af75"))))
  '(font-lock-variable-name-face ((t (:foreground "#3387cc"))))
@@ -86,14 +96,14 @@
  '(text-cursor ((t (:background "yellow" :foreground "black"))))
  '(underline ((nil (:underline nil))))
  ;; term
- `(term-color-black ((t (:foreground "#4d4d4d" :background "#1c1c1c"))))
- `(term-color-red ((t (:foreground "#D81860" :background "#F00060"))))
- `(term-color-green ((t (:foreground "#60FF60" :background "#70FF70"))))
- `(term-color-yellow ((t (:foreground "#f9fd75" :background "#f9fd80"))))
- `(term-color-blue ((t (:foreground "#4695c8" :background "#3387cc"))))
- `(term-color-magenta ((t (:foreground "#a78edb" :background "#b29fdb"))))
- `(term-color-cyan ((t (:foreground "#43afce" :background "#69b8ce"))))
- `(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
+ '(term-color-black ((t (:foreground "#4d4d4d" :background "#1c1c1c"))))
+ '(term-color-red ((t (:foreground "#D81860" :background "#F00060"))))
+ '(term-color-green ((t (:foreground "#60FF60" :background "#70FF70"))))
+ '(term-color-yellow ((t (:foreground "#f9fd75" :background "#f9fd80"))))
+ '(term-color-blue ((t (:foreground "#4695c8" :background "#3387cc"))))
+ '(term-color-magenta ((t (:foreground "#a78edb" :background "#b29fdb"))))
+ '(term-color-cyan ((t (:foreground "#43afce" :background "#69b8ce"))))
+ '(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
  '(term-default-fg-color ((t (:inherit term-color-white))))
  '(term-default-bg-color ((t (:inherit term-color-black))))
  ;; Company
