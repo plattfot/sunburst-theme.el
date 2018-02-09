@@ -5,6 +5,8 @@
 
 (custom-theme-set-faces
  'sunburst
+ (if window-system '(default ((t (:background "#111" :foreground "#ddd"))))
+   '(default ((t (:foreground "#ddd")))))
  '(default ((t (:background "#111" :foreground "#ddd"))))
  '(blue ((t (:foreground "blue"))))
  '(bold ((t (:bold t))))
