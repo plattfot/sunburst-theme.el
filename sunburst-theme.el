@@ -122,12 +122,12 @@
  '(ac-completion-face ((t (:inherit default :foreground "#666" :underline t))))
  '(ac-candidate-face ((t (:background "#222"))))
  '(ac-selection-face ((t (:foreground "#ddd" :background "#3387cc"))))
- '(popup-tip-face ((t (:foreground "#3387cc" :background "#222"))))
- '(popup-menu-mouse-face ((t (:background "#222" :foreground "#3387cc"))))
- '(popup-summary-face ((t (:background "#222" :foreground "#666"))))
+ '(popup-tip-face ((t (:foreground "#ddd" :background "#222"))))
+ '(popup-menu-mouse-face ((t (:foreground "#3387cc" :background "#222"))))
+ '(popup-summary-face ((t (:foreground "#666" :background "#222"))))
  '(popup-scroll-bar-foreground-face ((t (:background "#666"))))
  '(popup-scroll-bar-background-face ((t (:background "#222"))))
- '(popup-isearch-match ((t (:background "#222" :foreground "#666"))))
+ '(popup-isearch-match ((t (:foreground "#666" :background "#222"))))
 
  ;; Tooltip
  '(tooltip ((t (:inherit variable-pitch :background "#222" :foreground "#666"))))
