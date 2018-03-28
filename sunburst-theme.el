@@ -111,13 +111,16 @@
 
  ;; Company
  '(company-tooltip ((t (:inherit default :background "#222"))))
- '(company-scrollbar-bg ((t (:background "#222"))))
- '(company-scrollbar-fg ((t (:background "#666"))))
  '(company-tooltip-selection ((t (:inherit default :background "#3387cc"))))
  '(company-tooltip-common ((t (:inherit font-lock-constant-face :foreground "#ddd" :bold t :underline t))))
+ '(company-tooltip-annotation ((t (:foreground "#666"))))
+ '(company-scrollbar-bg ((t (:background "#222"))))
+ '(company-scrollbar-fg ((t (:background "#666"))))
  '(company-preview  ((t (:inherit font-lock-comment-face :underline t ))))
  '(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
-
+ '(company-template-field ((t (:inherit match))))
+ '(company-preview-search ((t (:inherit 'company-tooltip-search))))
+ 
  ;; Auto-complete
  '(ac-completion-face ((t (:inherit default :foreground "#666" :underline t))))
  '(ac-candidate-face ((t (:background "#222"))))
