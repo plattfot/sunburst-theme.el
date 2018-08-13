@@ -12,9 +12,9 @@
  '(bold ((t (:bold t))))
  '(bold-italic ((t (:bold t :slant italic))))
  '(border-glyph ((t (nil))))
- `(vertical-border ((t (:background "#111" :foreground "#222"))))
- `(fringe  ((t (:background "#111"))))
-
+ '(vertical-border ((t (:background "#111" :foreground "#222"))))
+ '(fringe  ((t (:background "#111"))))
+ '(link ((t (:foreground "#3387cc" :underline t))))
  ;; mode line & powerline
  ;; `(powerline-active1   ((t (:background ,ample/darkest-gray :foreground "cornsilk4"))))
  ;; `(powerline-active2   ((t (:background "cornsilk4" :foreground ,ample/darkest-gray ))))
@@ -35,7 +35,17 @@
    ((t (:foreground "#65b042" :background "#111" :inverse-video nil :weight bold))))
  ;; mini buff
  `(minibuffer-prompt ((t (:foreground "#3387cc" :bold t :background nil))))
-		       
+ '(trailing-whitespace ((t (:background "#cc333b"))))
+ ;; Org-mode list and other outline things
+ '(outline-1 ((t (:foreground "#e9c062" :bold t))))
+ '(outline-2 ((t (:foreground "#cbb774" :bold t))))
+ '(outline-3 ((t (:foreground "#acad85" :bold t))))
+ '(outline-4 ((t (:foreground "#8ea497" :bold t))))
+ '(outline-5 ((t (:foreground "#709aa9" :bold t))))
+ '(outline-6 ((t (:foreground "#5191ba" :bold t))))
+ '(outline-7 ((t (:foreground "#428cc3" :bold t))))
+ '(outline-8 ((t (:foreground "#3387cc" :bold t))))
+
  '(buffers-tab ((t (:background "#111" :foreground "#ddd"))))
  '(font-lock-builtin-face ((t (:foreground "#dd7b3b"))))
  '(font-lock-comment-face ((t (:foreground "#666" ))))
@@ -55,7 +65,7 @@
  '(erc-keyword-face ((t (:foreground "#cf6a4c"))))
  '(erc-notice-face ((t (:foreground "#666"))))
  '(erc-timestamp-face ((t (:foreground "#65b042"))))
- '(erc-underline-face ((t (:foreground "c5af75"))))
+ '(erc-underline-face ((t (:foreground "#c5af75"))))
  ;; NXML
  '(nxml-attribute-local-name-face ((t (:foreground "#3387cc"))))
  '(nxml-attribute-colon-face ((t (:foreground "#e28964"))))
