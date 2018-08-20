@@ -25,7 +25,6 @@
  `(Info-quoted ((t (:foreground "dark gray"))))
  `(info-menu-star ((t (:foreground ,sb-yellow))))
  `(link-visited ((t (:foreground "violet" :inherit link))))
-
  ;; mode line & powerline
  ;; `(powerline-active1   ((t (:background ,ample/darkest-gray :foreground "cornsilk4"))))
  ;; `(powerline-active2   ((t (:background "cornsilk4" :foreground ,ample/darkest-gray ))))
@@ -84,7 +83,6 @@
  `(erc-notice-face ((t (:foreground "#666"))))
  `(erc-timestamp-face ((t (:foreground "#65b042"))))
  `(erc-underline-face ((t (:foreground "#c5af75"))))
-
  ;; NXML
  `(nxml-attribute-local-name-face ((t (:foreground ,sb-blue))))
  `(nxml-attribute-colon-face ((t (:foreground "#e28964"))))
