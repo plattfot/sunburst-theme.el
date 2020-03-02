@@ -60,7 +60,7 @@
  `(org-priority ((t (:foreground ,sb-yellow :bold t))))
  `(org-special-keyword ((t (:foreground ,sb-yellow :bold t))))
  `(org-date ((t (:foreground ,sb-yellow :bold t))))
- 
+
  ;;`(org-todo ((t (:foreground "pink" :bold t))))
  `(org-done ((t (:foreground "#99cf50" :bold t))))
  `(buffers-tab ((t (:background "#111" :foreground "#ddd"))))
@@ -135,7 +135,6 @@
  `(term-color-white ((t (:foreground "#f3ebe2" :background "#eeeeee"))))
  `(term-default-fg-color ((t (:inherit term-color-white))))
  `(term-default-bg-color ((t (:inherit term-color-black))))
-
  ;; Company
  `(company-tooltip ((t (:inherit default :background "#222"))))
  `(company-tooltip-selection ((t (:inherit default :background ,sb-blue))))
@@ -148,7 +147,7 @@
  `(company-preview-common  ((t (:inherit font-lock-comment-face :underline t ))))
  `(company-template-field ((t (:inherit match))))
  `(company-preview-search ((t (:inherit 'company-tooltip-search))))
- 
+
  ;; Auto-complete
  `(ac-completion-face ((t (:inherit default :foreground "#666" :underline t))))
  `(ac-candidate-face ((t (:background "#222"))))
@@ -180,6 +179,9 @@
  `(ediff-odd-diff-Ancestor ((t (:background "gray11"))))
  `(ediff-odd-diff-B ((t (:background "gray11"))))
  `(ediff-odd-diff-C ((t (:background "gray11"))))
+
+ ;; Telega
+ ;;`(telega-msg-user-title ((t (:background "#3387cc"))))
 )
 
 (provide-theme 'sunburst)
