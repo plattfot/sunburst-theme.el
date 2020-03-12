@@ -125,7 +125,7 @@
  `(text-cursor ((t (:background "yellow" :foreground "black"))))
  `(underline ((nil (:underline nil))))
  ;; term
- `(term-color-black ((t (:foreground "#4d4d4d" :background "#1c1c1c"))))
+ `(term-color-black ((t (:foreground "#4d4d4d" :background "#333333"))))
  `(term-color-red ((t (:foreground "#D81860" :background "#F00060"))))
  `(term-color-green ((t (:foreground "#60FF60" :background "#70FF70"))))
  `(term-color-yellow ((t (:foreground "#f9fd75" :background "#f9fd80"))))
